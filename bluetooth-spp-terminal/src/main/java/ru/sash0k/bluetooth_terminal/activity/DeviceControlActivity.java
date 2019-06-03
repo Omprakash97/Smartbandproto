@@ -482,5 +482,9 @@ public final class DeviceControlActivity extends BaseActivity {
     }
     // ==========================================================================
 
-
+    public void gotohell(View view){
+        Intent i = new Intent(this, Home.class);
+        startActivity(i);
+        finish();
+    }
 }
